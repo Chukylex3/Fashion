@@ -98,7 +98,6 @@
   font-weight: 800;
   width: 12em;
   background-color: red;
-  color: white;
   font-size: 18px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-radius: 5px;
@@ -217,6 +216,24 @@
 @media (max-width: 800px) {
   .header-2 {
     flex-direction: column;
+  }
+  .second-section h1 {
+    font-size: 1.5em;
+  }
+  .second-section {
+    min-width: 20vh;
+  }
+ .second-section button {
+    font-weight: 700;
+   width: 10em;
+   font-size: 9px;
+  }
+.second-section button a {
+    padding: 7px;
+  color: white;
+  }
+  .second-section .next-logo {
+    display: none;
   }
   .shaped-image {
     margin-top: -32px;
